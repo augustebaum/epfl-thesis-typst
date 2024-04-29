@@ -1,0 +1,3 @@
+latex-reference
+*.pdf
+!example/main.pdf
