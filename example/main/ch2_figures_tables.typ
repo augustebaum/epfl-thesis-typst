@@ -1,4 +1,5 @@
 #import "@preview/scholarly-epfl-thesis:0.1.0": flex-caption
+#import "@preview/subpar:0.1.0"
 
 = Tables and Figures
 
@@ -94,6 +95,27 @@ printing.], [A floating figure]),
 )
 
 #lorem(100)
+
+#subpar.grid(
+    align: top,
+    columns: 2,
+    // gutter: 10pt,
+    // row-gutter: 1.5em,
+    gap: 2em,
+    figure(
+      image("../images/lorem.jpg", width: 100%), caption: [Asia personas duo #lorem(15)],
+    ),
+    figure(
+      image("../images/ipsum.jpg", width: 100%), caption: [Pan ma si],
+    ),
+    figure(
+      image("../images/dolor.jpg", width: 100%), caption: [Methodicamente o uno],
+    ),
+    figure(
+      image("../images/sit.jpg", width: 100%), caption: [Titulo debitas],
+    ),
+    caption: [Tu duo titulo debitas latente],
+)
 
 #lorem(100)
 
