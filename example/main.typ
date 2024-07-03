@@ -1,4 +1,4 @@
-#import "@preview/scholarly-epfl-thesis:0.1.0": template, front-matter, main-matter, back-matter
+#import "@preview/scholarly-epfl-thesis:0.1.1": template, front-matter, main-matter, back-matter
 
 #show: template.with(author: "Your name")
 
