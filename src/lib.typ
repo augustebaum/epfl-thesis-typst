@@ -196,7 +196,7 @@ long } }
     numbering("(1.1)", h1, n)
   })
 
-  show math.equation: it => {
+  show math.equation.where(block: true): it => {
     set align(left)
     // Indent
     pad(left: 2em, it)

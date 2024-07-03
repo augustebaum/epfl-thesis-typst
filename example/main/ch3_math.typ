@@ -15,7 +15,11 @@ $
   )
 $
 
-#lorem(100)
+#lorem(70)
+
+a hopefully inline math equation: $h = 3$
+
+#lorem(30)
 
 $
   macron(I_f)(arrow(r))
