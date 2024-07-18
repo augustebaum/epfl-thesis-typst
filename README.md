@@ -1,6 +1,6 @@
 # EPFL Thesis template
 
-Adaptation of [an unofficial LaTeX template](https://www.overleaf.com/latex/templates/swiss-federal-institute-of-technology-in-lausanne-epfl-phd-thesis/dhcgtppybcwv) to Typst.
+Port of [an unofficial LaTeX template](https://www.overleaf.com/latex/templates/swiss-federal-institute-of-technology-in-lausanne-epfl-phd-thesis/dhcgtppybcwv) to Typst.
 
 A complete example is shown in the [example folder](https://github.com/augustebaum/epfl-thesis-typst/blob/v0.1.1/example); see [example.pdf](https://github.com/augustebaum/epfl-thesis-typst/blob/v0.1.1/example/main.pdf) for the rendered PDF. The document structure can of course be adapted to your needs.
 
