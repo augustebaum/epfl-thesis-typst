@@ -1,4 +1,4 @@
-#import "@preview/scholarly-epfl-thesis:0.1.2": flex-caption
+#import "@preview/scholarly-epfl-thesis:0.1.3": flex-caption
 
 = Tables and Figures
 
