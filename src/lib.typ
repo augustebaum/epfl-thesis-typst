@@ -174,7 +174,8 @@ long } }
   }
 
   // Indent nested entries in the outline.
-  set outline(indent: auto, fill: repeat([#h(2.5pt) . #h(2.5pt)]))
+  set outline(indent: auto)
+  set outline.entry(fill: repeat([#h(2.5pt) . #h(2.5pt)]))
 
   show outline.entry: it => {
     // Only apply styling if we're in the table of contents (not list of figures or list of tables, etc.)
