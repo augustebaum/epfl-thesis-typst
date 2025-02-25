@@ -40,7 +40,7 @@ This template exports the `template` function with the following named arguments
 The template will initialize your package with a basic call to the `template` function in a `show` rule. If you, however, want to change an existing project to use this template, you can add a show rule like this at the top of your file:
 
 ```typst
-#import "@preview/scholarly-epfl-thesis:0.1.3": *
+#import "@preview/scholarly-epfl-thesis:0.2.0": *
 
 #show: template.with(
   title: [Your Title],

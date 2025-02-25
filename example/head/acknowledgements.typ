@@ -1,4 +1,4 @@
-#import "@preview/scholarly-epfl-thesis:0.1.3": fill-line
+#import "@preview/scholarly-epfl-thesis:0.2.0": fill-line
 
 = Acknowledgements
 
