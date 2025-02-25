@@ -2,15 +2,15 @@
 
 Port of [an unofficial LaTeX template](https://www.overleaf.com/latex/templates/swiss-federal-institute-of-technology-in-lausanne-epfl-phd-thesis/dhcgtppybcwv) to Typst.
 
-A complete example is shown in the [example folder](./example); see [example.pdf](./example/main.pdf) for the rendered PDF. The document structure can of course be adapted to your needs.
+A complete example is shown in the [example folder](https://github.com/augustebaum/epfl-thesis-typst/tree/main/example); see [example.pdf](https://github.com/augustebaum/epfl-thesis-typst/blob/main/example/main.pdf) for the rendered PDF. The document structure can of course be adapted to your needs.
 
 ## Screenshots
 
 <div>
-  <img src="./screenshots/cover_page.png" width=200px>
-  <img src="./screenshots/acknowledgements.png" width=200px>
-  <img src="./screenshots/tables_and_figures.png" width=200px>
-  <img src="./screenshots/appendix.png" width=200px>
+  <img src="https://github.com/augustebaum/epfl-thesis-typst/blob/main/screenshots/cover_page.png" width=200px>
+  <img src="https://github.com/augustebaum/epfl-thesis-typst/blob/main/screenshots/acknowledgements.png" width=200px>
+  <img src="https://github.com/augustebaum/epfl-thesis-typst/blob/main/screenshots/tables_and_figures.png" width=200px>
+  <img src="https://github.com/augustebaum/epfl-thesis-typst/blob/main/screenshots/appendix.png" width=200px>
 </div>
 
 ## Usage
@@ -25,7 +25,7 @@ typst init @preview/scholarly-epfl-thesis
 
 Typst will create a new directory with all the files needed to get you started.
 
-This template uses certain fonts, including Utopia Latex for most text. If the font is not available to Typst, as is the case in the Typst Web App, then the template will fall back to a default font. The font is included in example shown in the Github repository [here](./example/utopia_font), otherwise you can download it however you like.
+This template uses certain fonts, including Utopia Latex for most text. If the font is not available to Typst, as is the case in the Typst Web App, then the template will fall back to a default font. The font is included in example shown in the Github repository [here](https://github.com/augustebaum/epfl-thesis-typst/tree/main/example/utopia_font), otherwise you can download it however you like.
 
 ### Configuration
 
@@ -52,7 +52,7 @@ The template will initialize your package with a basic call to the `template` fu
 ```
 
 Also included are the `front-matter`, `main-matter` and `back-matter` helpers which you can use in `show` rules in your document to change certain settings when they are called: e.g. reset the page numbering when main matter starts, or number headings with letters in the back matter.
-See [example/main.typ](./example/main.typ) for example usage.
+See [example/main.typ](https://github.com/augustebaum/epfl-thesis-typst/tree/main/example/main.typ) for example usage.
 
 ### Compatibility
 
